@@ -1,0 +1,33 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h1>Registracija</h1>
+		<form action="adduser.php" method="post">
+			<div class="form-group">
+				 <label for="firstname">Ime:</label>
+				 <input type="text" class="form-control" id="firstname" name="firstname" />
+			</div>
+			<div class="form-group">
+				 <label for="lastname">Prezime:</label>
+				 <input type="text" class="form-control" id="lastname" name="lastname" />
+			</div>
+				 <label for="email">email:</label>
+				 <input type="text" class="form-control" id="email" name="email" />
+			<div class="form-group">
+				 <input type="radio" name="gender" value="Male" checked />Muško<br />
+				 <input type="radio" name="gender" value="Female" />Žensko
+			</div>
+			<div class="form-group">
+				 <input type="checkbox" value="Y" />Newsletter
+			</div>
+				 <input type="submit" class="btn btn-default" value="Pošalji" />
+		 </form>
+	</div>
+</body>
+</html>
